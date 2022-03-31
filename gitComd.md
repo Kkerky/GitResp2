@@ -58,5 +58,25 @@
 
 
 
+## 远程仓库 
+
+1.git remote -v  ：查看远程仓库
+
+2.git remote add origin(别名)  (远程仓库地址) ：在本地给 远程仓库起别名 方便以后 fetch 和 pull
+
+3.git push origin master  之后输入 git账户名 和token
+
+4.gti clone 远程仓库地址  可以克隆远程仓库到当前路径下
+
+### 注意 ：pull操作 相当于 fetch（抓取） 和 merge （合并） 操作的结合 
+
+#### fetch+merge 是需要核对的情况下用，pull是在不需要核对的情况下用
+
+同时操作同一个文件时，冲突的解决办法
+
+
+
+
+
 
 
